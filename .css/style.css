@@ -1,0 +1,69 @@
+     @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&display=swap');
+body,* {margin:0;
+         padding: 0;
+        font-family: 'Roboto Serif', sans-serif;}
+
+ 
+ ul{list-style: style none; 
+     display:flex;
+     height: 62px;
+     width: 100%;
+     background-color: rgb(129, 78, 129);
+     position: fixed;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 19px;
+    display: block;
+    transition:background.3s;
+}
+a:hover{
+    background-color: rgb(207, 33, 170);
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(199, 84, 155) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.box{height:300px ;
+    width:300px ;
+    background-color: plum;
+    padding-top: 170px;
+
+}
+.img1{
+  background-image:url(../.img/orquideas.jpg) ;
+ background-size: cover;
+}
+.img2{
+ background-image:url(../.img/rosas.jpg) ;
+ background-size: cover;
+}
+.img3{
+ background-image:url(../.img/suculentas.jpg) ;
+ background-size: cover;
+}
+h2{
+    background-color: rgba(000,000,000,0.6)}
+    
+section div a{
+    background-color: rgba(000,000,000,66.0) ;
+    display:block ;}
+footer{height: 100px; 
+       width: 100px; 
+       background-color:royalblue;
+       font-size: 30px;
+       color: rgb(101, 68, 131)
+
+       ;
+}   
+    
+
+
+
